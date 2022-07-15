@@ -35,6 +35,7 @@ $(document).ready(function(){
     $('.reviews').slick({
         infinite: true,
 		slidesToShow: 1,
+        infinite:false,
         adaptiveHeight:true,
     });
 
